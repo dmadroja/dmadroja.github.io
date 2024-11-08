@@ -75,12 +75,6 @@
                 return Math.round(ageDate.getMonth() + 1 > 5 ? year + 0.5 : year);
             }
             $("#totalExperience").html(calculateYear());
-
-    $('#portfolio-filter li').on('click', function () {
-        $("#portfolio-filter li").removeClass('filter-active');
-        $(this).addClass('filter-active');
-        portfolioIsotope.isotope({filter: $(this).data('filter')});
-    });
     
 })(jQuery);
 
