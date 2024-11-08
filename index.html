@@ -1,49 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Dipen Adroja | Senior Backend Engineer | System Design, Java, Spring Boot, AWS</title>
+        
+        <meta name="description" content="Dipen Adroja | Engineer | Mentor | Learner"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
         <meta name="keywords" content="Dipen, Adroja, Ahmedabad, Gujarat, India, Software engineer, Technical Lead, Stackoverflow, blog, System Design, Java, JavaEE, EJB, Hibernate, Spring Boot, React, AWS, REST, MongoDB, LinkedIn, Skype, dmadroja" />
+        
 
-        <title>Dipen Adroja | Senior Backend Engineer | System Design, Java, Spring Boot, AWS</title>
-        <meta name="description" content="Dipen Adroja | Engineer | Mentor | Learner"/>
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+
+ <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        
 
         <!-- /bundle -->
     </head>
 
-    <body class="header-vertical">
 
-        <!-- Loader -->
-        <div id="page-loader" class="bg-white"></div>
-        <!-- Loader / End -->
 
-        <!-- Header -->
-        <!-- Header / End -->
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Dipen's Desk</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <!-- Content -->
-        <div id="content" class="bg-white">        
-
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#experience" class="nav-item nav-link">Experience</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Content / End -->
-        <!-- Mobile Navigation -->
+        <!-- Nav Bar End -->
 
-        <!-- Ajax Wrapper & Loader -->
-        <div id="ajax-modal"></div>
-        <div id="ajax-loader"><i class="fa fa-spinner fa-spin"></i></div>
 
-        <!-- bundle:js assets/js/app-#hash#.min.js-->
-        <script src="assets/js/jquery-1.11.3.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/core.js"></script>
-        <!-- /bundle -->
-        <script>
-            function calculateYear() {
-                var ageDate = new Date(Date.now() - 1356998400000);
-                var year = Math.abs(ageDate.getUTCFullYear() - 1970);
-                return ageDate.getMonth() + 1 > 5 ? year + 0.5 : year;
-            }
-            $("#totalExperience").html(calculateYear());
-        </script>
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>I'm</p>
+                                <h1>Dipen Adroja</h1>
+                                <h2></h2>
+                                <div class="typed-text">Cloud Architecture, API Design, Distributed Systems, Mentorship, Problem-Solving, Team Leadership</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/hero.jpeg" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/about.jpeg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Learn About Me</p>
+                                <h2><span id="totalExperience">12</span> Years Experience</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                <ul>
+                                    <li>
+                                    Specializing in micro-services and web application development. 
+                                    </li>
+                                    <li>
+                                    Proficient in design, development, execution and scaling of the application. 
+                                    </li>
+                                    <li>
+                                    Interested in devising a better problem-solving method for challenging tasks, adopting new technologies/tools as and when need arises.
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        
+         <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Working Experience</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Oct 2024 - Present</div>
+                            <h2>Staff Software Engineer</h2>
+                            <h4>Demandbase, Remote</h4>
+                            <p>
+                                As a Staff Engineer at Demandbase, I lead architectural decisions, drive system optimizations, and collaborate with cross-functional teams to deliver scalable solutions. I mentor team members, promote best practices, and focus on enhancing code quality and operational efficiency to meet business goals.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Sep 2022 - Oct 2024</div>
+                            <h2>Senior Software Engineer</h2>
+                            <h4>Atlassian, Remote</h4>
+                            <p>
+                                I designed a Vendor Payout Service that reduced reporting latency from 9-14 hours to near-instantaneous updates. I led initiatives to improve coding standards and infrastructure, saving the company approximately $10K per month. Additionally, I built an Employee 360 Slack bot and actively mentored colleagues through architecture forums and design reviews.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Mar 2021 - Sep 2022</div>
+                            <h2>Senior Software Engineer</h2>
+                            <h4>Sophos, Remote</h4>
+                            <p>
+                                I designed and developed new features for email security products, including a High-Risk URL scanner module and Mail Flow integration with O365. I ensured the performance and fault tolerance of new microservices through auto-scaling and an end-to-end CI/CD setup. Additionally, I provided production support and mentored junior colleagues, helping them grow in their technical skills.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Nov 2017 - Mar 2021</div>
+                            <h2>Tech Lead</h2>
+                            <h4>Crest Data Systems, Ahmedabad, India</h4>
+                            <p>
+                                I have experience in developing and enhancing complex software solutions, including feature development, code refactoring, and creating automation frameworks to improve testing efficiency. I have successfully led teams and managed release processes, ensuring smooth deployment and high-quality deliverables. Additionally, I have contributed to system architecture improvements and provided easy-to-use customization options for customers. My roles have also included mentoring junior colleagues and serving as a scrum master, driving team collaboration and performance.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Jun 2017 - Nov 2017</div>
+                            <h2>Software Developer</h2>
+                            <h4>Crowdfire App, Mumbai, India</h4>
+                            <p>
+                                I integrated multiple third-party platforms into the existing application, enhancing its functionality based on business requirements. I contributed to the development of new features in microservices and optimized database performance for key modules. Additionally, I played a key role in developing new features from scratch, adding valuable functionality to the product.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Sep 2015 - Jun 2017</div>
+                            <h2>Application Engineer</h2>
+                            <h4>Oracle, Gandhinagar, India</h4>
+                            <p>
+                                I worked as an Application Developer in a distributed team, focusing on implementing new features and addressing customer-reported issues. I ensured high-quality development by writing unit tests to achieve significant code coverage and error-free execution. Additionally, I worked on improving the performance of key application modules to enhance the overall user experience.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Jan 2013 - Sep 2015</div>
+                            <h2>Software Developer</h2>
+                            <h4>Tata Consultancy Service, Gandhinagar, India</h4>
+                            <p>
+                                I have led teams in agile development and worked on refining features to improve user experience and reduce support issues. I was responsible for scoping and backlog refinement to ensure timely project delivery. Additionally, I have experience in designing and integrating new modules, fixing production bugs, and providing user training for effective product utilization.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Job Experience End -->
+
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Dipen Adroja</h2>
+                        <div class="footer-menu">
+                            <p>+91 9725257715</p>
+                            <p>dmadroja@gmail.com</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            
+                            
+                            <a href="https://www.linkedin.com/in/dipenadroja/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p>&copy; <a href="#">Dipen Adroja</a>, All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/x.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
     </body>
-
 </html>
